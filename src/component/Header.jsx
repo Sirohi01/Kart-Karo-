@@ -5,13 +5,13 @@ const Header = ({ cartAllProduct }) => {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col-12 bg-primary d-flex justify-content-between px-5">
+        <div className="col-12 bg-secondary d-flex justify-content-between px-5">
           <ul className="d-flex gap-5 align-items-center m-0 p-0 py-3">
             <NavLink
               to="/"
               className="list-unstyled text-light p-0 pointer text-decoration-none"
             >
-              HOME
+              Kart Karo
             </NavLink>
             <li className="list-unstyled text-light p-0 pointer">ABOUT</li>
             <li className="list-unstyled text-light p-0 pointer">CONTACT</li>
