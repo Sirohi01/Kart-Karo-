@@ -31,11 +31,11 @@ const Home = ({ setProductId }) => {
                 </div>
                 <div className="px-2 mt-1">
                   <button
-                    className="btn btn-primary p-1 w-100"
-                    onClick={() => handleAddToCart(product?.id)}
-                  >
-                    AddToCart
-                  </button>
+                  style={{ backgroundColor: 'red', color: 'white' }}
+                  className="btn p-1 w-100"
+                  onClick={() => handleAddToCart(product?.id)}>
+  Add To Cart
+</button>
                 </div>
               </div>
             </div>
